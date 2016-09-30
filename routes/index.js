@@ -1,9 +1,13 @@
 var moviesJSON = require('../movies.json');
+var settingJSON = require('../package.json');
 
 // Home
 exports.home = function(req, res) {
 
     var movies = moviesJSON.movies;
+    var author = settingJSON.author;
+    var version = settingJSON.version;
+    var description = settingJSON.description;
 
 
     // var moviePosters = [];
@@ -15,8 +19,12 @@ exports.home = function(req, res) {
 
     res.render('home', {
         title: 'Star Wars Movies',
-        movies: movies
-            //, moviePosters: moviePosters
+        movies: movies,
+        // app settings
+        author: author,
+        version: version,
+        description: description
+        //, moviePosters: moviePosters
     });
 };
 
@@ -26,8 +34,11 @@ exports.movie_single = function(req, res) {
     var episode_number = req.params.episode_number;
 
     var movies = moviesJSON.movies;
+    var author = settingJSON.author;
+    var version = settingJSON.version;
+    var description = settingJSON.description;
 
-    if (episode_number >= 1 && episode_number <= 6) {
+    if (episode_number >= 1 && episode_number <= movies.length) {
         var movie = movies[episode_number - 1];
 
         var title = movie.title;
@@ -38,11 +49,19 @@ exports.movie_single = function(req, res) {
             movies: movies,
             title: title,
             movie: movie,
-            main_characters: main_characters
+            main_characters: main_characters,
+            // app settings
+            author: author,
+            version: version,
+            description: description
         });
     } else {
         res.render('notFound', {
             movies: movies,
+            // app settings
+            author: author,
+            version: version,
+            description: description,
             title: 'This is not the page you are looking for.'
         });
     }
