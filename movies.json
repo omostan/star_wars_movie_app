@@ -51,16 +51,16 @@
             "description": "Darth Vader and the Empire are building a new, indestructible Death Star. Meanwhile, Han Solo has been imprisoned, and Luke Skywalker has sent R2-D2 and C-3PO to try and free him. Princess Leia - disguised as a bounty hunter - and Chewbacca go along as well. The final battle takes place on the moon of Endor, with its natural inhabitants, the Ewoks, lending a hand to the Rebels. Will Darth Vader and the Dark Side overcome the Rebels and take over the universe?",
             "poster": "star_wars_episode_6_poster.png",
             "hero_image": "star_wars_episode_6_hero.jpg"
-        },
-
-        {
-            "title": "Star Wars: Episode VII - The Force Awakens",
-            "episode_number": "7",
-            "main_characters": ["Harrison Ford", "Mark Hamill", "Carrie Fisher", "Adam Driver", "Daisy Ridley", "John Boyega", "Oscar Isaac", "Lupita Nyong'o", "Andy Serkis", "Domhnall Gleeson", "Anthony Daniels", "Peter Mayhew", "Max von Sydow"],
-            "description": "Approximately 30 years after the destruction of the second Death Star, the last remaining Jedi, Luke Skywalker, has disappeared. The First Order has risen from the fallen Galactic Empire and seeks to eliminate the New Republic. The Resistance, backed by the Republic and led by Luke's twin sister, General Leia Organa, opposes them while searching for Luke to enlist his aid. Resistance pilot Poe Dameron meets village elder Lor San Tekka on the planet Jakku to obtain a map to Luke's location. Stormtroopers commanded by Kylo Ren destroy the village and capture Poe, while Ren kills Tekka. Poe's droid, BB-8 escapes with the map and encounters a scavenger named Rey near a junkyard settlement. Ren tortures Poe using the Force, and learns of BB-8. Stormtrooper FN-2187, unable to bring himself to kill for the First Order, frees Poe, and they escape in a stolen TIE fighter; Poe dubs FN-2187 \"Finn\". They crash on Jakku, and Finn survives, but is unable to determine if Poe did as well. He encounters Rey and BB-8, but the First Order tracks them and launches an airstrike. Finn, Rey, and BB-8 flee the planet in the Millennium Falcon, which they steal from a junkyard.",
-            "poster": "star_wars_episode_7_poster.png",
-            "hero_image": "star_wars_episode_7_hero.jpg"
         }
+
+        // {
+        //     "title": "Star Wars: Episode VII - The Force Awakens",
+        //     "episode_number": "7",
+        //     "main_characters": ["Harrison Ford", "Mark Hamill", "Carrie Fisher", "Adam Driver", "Daisy Ridley", "John Boyega", "Oscar Isaac", "Lupita Nyong'o", "Andy Serkis", "Domhnall Gleeson", "Anthony Daniels", "Peter Mayhew", "Max von Sydow"],
+        //     "description": "Approximately 30 years after the destruction of the second Death Star, the last remaining Jedi, Luke Skywalker, has disappeared. The First Order has risen from the fallen Galactic Empire and seeks to eliminate the New Republic. The Resistance, backed by the Republic and led by Luke's twin sister, General Leia Organa, opposes them while searching for Luke to enlist his aid. Resistance pilot Poe Dameron meets village elder Lor San Tekka on the planet Jakku to obtain a map to Luke's location. Stormtroopers commanded by Kylo Ren destroy the village and capture Poe, while Ren kills Tekka. Poe's droid, BB-8 escapes with the map and encounters a scavenger named Rey near a junkyard settlement. Ren tortures Poe using the Force, and learns of BB-8. Stormtrooper FN-2187, unable to bring himself to kill for the First Order, frees Poe, and they escape in a stolen TIE fighter; Poe dubs FN-2187 \"Finn\". They crash on Jakku, and Finn survives, but is unable to determine if Poe did as well. He encounters Rey and BB-8, but the First Order tracks them and launches an airstrike. Finn, Rey, and BB-8 flee the planet in the Millennium Falcon, which they steal from a junkyard.",
+        //     "poster": "star_wars_episode_7_poster.png",
+        //     "hero_image": "star_wars_episode_7_hero.jpg"
+        // }
     ]
 
 }
